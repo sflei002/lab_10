@@ -156,8 +156,8 @@ void Tick_Combineleds(){
 
 //--------------------------------------------------
 int main(void) {
-    unsigned long BL_elapsedTime = 100;
-    unsigned long TL_elapsedTime = 100;
+    unsigned long BL_elapsedTime = 0;
+    unsigned long TL_elapsedTime = 0;
     const unsigned long BL_period = 100;
     const unsigned long TL_period = 100;
     const unsigned long timerPeriod = 1;
